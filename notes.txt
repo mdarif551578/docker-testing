@@ -1,0 +1,41 @@
+
+to print hello `echo hello`
+to get the current user `whoami`
+to see the location of shell program `echo $0`
+
+to see all the commands that we executed previously `history`
+then to run a specific command from history `!2`
+
+package manager `apt`
+to see all the packages `apt list`
+to update the package database `apt update`
+to install nano `apt install nano`
+to clear the terminal `ctrl + l`
+to remove a package `apt remove nano`
+
+present working directory `pwd`
+one item per line `ls -1`
+long list `ls -l`
+to see files of another directory `ls /bin`
+to go to users home directory `cd ~`
+
+create a directory `mkdir test`
+rename a directory `mv test docker`
+to create a new file `touch hello.txt`
+to create multiple new file `touch file1.txt file2.txt`
+to remove entire word in one gole `ctrl + w`
+to remove one or more files `rm file1.txt file2.txt`
+to remove one or more files with patterns `rm file*`
+to remove a directory `rm -r docker/`
+
+to login as root user `sudo -i`
+to see or concatanate file content `cat file1.txt`
+to see long file `more file1.txt`
+to see first some lines of a file `head -n 5 notes.txt`
+to see last some lines of a file `tail -n 5 notes.txt`
+read both files and print in terminal `cat file1.txt file2.txt`
+read both files and write in another file `cat file1.txt file2.txt > combined.txt`
+output reditection by `>` to a different file `cat file1.txt > file2.txt`
+input reditection used by `<`
+
+
